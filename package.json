@@ -1,0 +1,22 @@
+{
+  "name": "webkaryaraya",
+  "version": "1.0.0",
+  "description": "Official website of BEM KM IPB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-fakhri/Web-Karya-Raya.git"
+  },
+  "author": "Web BEM KM IPB Developer Team\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Csite\u001b[C\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Csite BEM KM IPB Developer Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammad-fakhri/Web-Karya-Raya/issues"
+  },
+  "homepage": "https://github.com/muhammad-fakhri/Web-Karya-Raya#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
