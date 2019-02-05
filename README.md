@@ -3,13 +3,11 @@ Projek kerjasama antara HIMALKOM Kabinet Network dengan BEM KM IPB Kabinet Karya
 
 ## TEAM DEVELOPER
 ### Front-End
-1. Yasmin Salamah (@)
-2. Irfan Alghani Khalid (@khalidmeister)
-http://github.com - automatic!
-[GitHub](http://github.com)
-3. Muhammad Hilmy Haidar
+1. Yasmin Salamah ([@yasminda19](https://github.com/yasminda19))
+2. Irfan Alghani Khalid ([@khalidmeister](https://github.com/khalidmeister))
+3. Muhammad Hilmy Haidar ([@dashdaz021](https://github.com/dashdaz021))
 
 ### Back-End
-1. Muhammad Fakhri (@)
+1. Muhammad Fakhri ([@muhammad-fakhri](https://github.com/muhammad-fakhri))
 2. Aan Kunaifi
 3. Alif Hilmi Akbar
