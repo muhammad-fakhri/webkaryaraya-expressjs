@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = 4000;
 app.listen(PORT, () => {
-	console.log("Server is active. Ready to receive request from client");
+	console.log("Server is active. Ready to receive request from port 4000.");
 });
 
 //Array Data
