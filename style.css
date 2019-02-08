@@ -1,6 +1,25 @@
+/*---------- General ----------*/
 body{
-    background-color: rgb(54, 143, 173);
+    background-color: rgb(216, 223, 187);
 }
+/*---------- Navigasi ----------*/
+.navbar{
+    background:transparent;
+}
+.navbar ul{
+    margin-left: auto;
+}
+.navbar .navbar-collapse{
+    text-align: center;
+}
+.navbar-nav li{
+    padding: 0, 10px;
+}
+.navbar-nav li a{
+    font-weight:100;
+    text-align: center;
+}
+/*---------- Jumbotron ----------*/
 .jumbotron{
     border-radius: 0px;
 }
