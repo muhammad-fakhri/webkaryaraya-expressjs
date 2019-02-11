@@ -1,26 +1,34 @@
+//Import the express module
 const express = require('express');
+const router = express.Router();
+const path = require('path');
+
+//Make an app instance of express module
 const app = express();
 
-const PORT = 4000;
-app.listen(PORT, () => {
-	console.log("Server is active. Ready to receive request from port 4000.");
+//Use the port from environment otherwise use 2000
+const port = process.env.PORT || 2000;
+
+app.get('/', (req, res) => {
+	// res.send("Hello world!");
+	res.sendFile(path.join(__dirname+'/index.html'));
 });
 
-//Array Data
-const name = {
-	title: 'Raise of the dawn',
-	page: 240
-};
-
-//Routes
-app.get('/', (req, res, next) => {
-	res.send(name);
+app.get('/home', (req, res) => {
+	// res.send("Welcome to home page guys !");
+	res.sendFile(path.join(__dirname+'/index.html'));
 });
 
-//Get single data
-app.get('/:no', (req, res, next) => {
-	res.send(name[req.params.no]);
+app.get('/pimbam', (req, res) => {
+	// res.send('This is the pimbam site');
+	res.sendFile(path.join(__dirname+'/content/menu.html'));
 });
 
-//Create new data
-app.post('/')
+app.use('/', router);
+
+app.listen(port, err => {
+	if(err){
+		return console.log(err);
+	}
+	console.log(`Server is listening on port ${port} ....`);
+});
