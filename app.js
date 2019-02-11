@@ -7,7 +7,10 @@ app.listen(PORT, () => {
 });
 
 //Array Data
-const name = ['fakhri', 'hilmi', 'bayu'];
+const name = {
+	title: 'Raise of the dawn',
+	page: 240
+};
 
 //Routes
 app.get('/', (req, res, next) => {
