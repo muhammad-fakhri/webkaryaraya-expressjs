@@ -19,6 +19,8 @@ app.get('/pimbam', (req, res) => {
 	res.sendFile(path.join(public, 'pimbam.html'));
 });
 
+
+//Use public path for all type of http request
 app.use('/', express.static(public));
 
 //Make server listening for request
