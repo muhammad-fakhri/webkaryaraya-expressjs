@@ -19,6 +19,21 @@ app.get('/pimbam', (req, res) => {
 	res.sendFile(path.join(public, 'pimbam.html'));
 });
 
+app.get('/kambio', (req, res) => {
+	res.sendFile(path.join(public, 'kambio.html'));
+});
+
+app.get('/godata', (req, res) => {
+	res.sendFile(path.join(public, 'godata.html'));
+});
+
+app.get('/pilm', (req, res) => {
+	res.sendFile(path.join(public, 'pilm.html'));
+});
+
+app.get('/about', (req, res) => {
+	res.sendFile(path.join(public, 'about.html'));
+});
 
 //Use public path for all type of http request
 app.use('/', express.static(public));
