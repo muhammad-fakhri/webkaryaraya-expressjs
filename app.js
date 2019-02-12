@@ -11,7 +11,6 @@ const app = express();
 const port = process.env.PORT || 2000;
 
 //Routes
-
 app.get('/', (req, res) => {
 	res.sendFile(path.join(public, 'index.html'));
 });
@@ -27,6 +26,5 @@ app.listen(port, err => {
 	if(err){
 		return console.log(err);
 	}
-	console.log(__dirname);
 	console.log(`Server is listening on port ${port} ....`);
 });
