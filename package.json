@@ -1,10 +1,10 @@
 {
-  "name": "webkaryaraya",
+  "name": "webbemkmipb",
   "version": "1.0.0",
   "description": "Official website of BEM KM IPB",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/muhammad-fakhri/Web-Karya-Raya#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "sqlite3": "^4.0.6"
   }
 }

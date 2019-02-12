@@ -1,8 +1,8 @@
 //Import the express module
 const express = require('express');
-const router = express.Router();
 const path = require('path');
-const public = path.join(__dirname, 'Web-Karya-Raya');
+const router = express.Router();
+const public = path.join(__dirname, 'public');
 
 //Make an app instance of express module
 const app = express();
@@ -10,17 +10,19 @@ const app = express();
 //Use the port from environment otherwise use 2000
 const port = process.env.PORT || 2000;
 
-//initializing first access index.html
+//Routes
+
 app.get('/', (req, res) => {
-	res.sendFile(path.join(__dirname+'/index.html'));
+	res.sendFile(path.join(public, 'index.html'));
 });
 
 app.get('/pimbam', (req, res) => {
-	res.send('PIMBAM COY!');
+	res.sendFile(path.join(public, 'pimbam.html'));
 });
 
 app.use('/', express.static(public));
 
+//Make server listening for request
 app.listen(port, err => {
 	if(err){
 		return console.log(err);
