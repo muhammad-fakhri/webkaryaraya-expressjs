@@ -10,7 +10,7 @@ const publicObj = require('../app.js');
 ///routes
 //About homepage
 router.get('/', (req, res) => {
-	res.sendFile(path.join(publicObj.public, 'view/about.html'));
+	res.render(publicObj.public + '/view/about.pug');
 });
 
 //export this module

@@ -10,7 +10,7 @@ const publicObj = require('../app.js');
 //routes
 //PIMBAM homepage
 router.get('/', (req, res) => {
-	res.sendFile(path.join(publicObj.public, 'view/pimbam.html'));
+	res.render(publicObj.public + '/view/pimbam.pug');
 });
 
 //export this module

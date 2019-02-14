@@ -10,7 +10,7 @@ const publicObj = require('../app.js');
 //routes
 //KAMBIO homepage
 router.get('/', (req, res) => {
-	res.sendFile(path.join(publicObj.public, 'view/kambio.html'));
+	res.render(publicObj.public + '/view/kambio.pug');
 });
 
 //export this module

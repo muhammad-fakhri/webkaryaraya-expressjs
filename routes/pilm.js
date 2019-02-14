@@ -10,7 +10,7 @@ const publicObj = require('../app.js');
 ///routes
 //PILM homepage
 router.get('/', (req, res) => {
-	res.sendFile(path.join(publicObj.public, 'view/pilm.html'));
+	res.render(publicObj.public + '/view/pilm.pug');
 });
 
 //export this module
