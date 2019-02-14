@@ -10,7 +10,7 @@ const publicObj = require('../app.js');
 //routes
 //GODATA homepage
 router.get('/', (req, res) => {
-	res.sendFile(path.join(publicObj.public, 'view/godata.html'));
+	res.render(publicObj.public	 + '/view/godata.pug');
 });
 
 //export this module
