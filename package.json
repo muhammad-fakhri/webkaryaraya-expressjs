@@ -2,9 +2,9 @@
   "name": "webbemkmipb",
   "version": "1.0.0",
   "description": "Official website of BEM KM IPB",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "express": "^4.16.4",
     "mysql": "^2.16.0",
     "nodemon": "^1.18.10",
+    "nunjucks": "^3.1.7",
     "pug": "^2.0.3",
     "sqlite3": "^4.0.6"
   }
