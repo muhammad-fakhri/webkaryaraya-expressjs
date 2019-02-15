@@ -1,10 +1,10 @@
 {
   "name": "webbemkmipb",
   "version": "1.0.0",
-  "description": "Official website of BEM KM IPB",
-  "main": "index.js",
+  "description": "Website Resmi BEM KM IPB",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
