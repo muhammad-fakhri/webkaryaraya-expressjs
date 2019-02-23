@@ -11,3 +11,7 @@ Projek kerjasama antara HIMALKOM Kabinet Network dengan BEM KM IPB Kabinet Karya
 1. Muhammad Fakhri ([@muhammad-fakhri](https://github.com/muhammad-fakhri))
 2. Aan Kunaifi
 3. Alif Hilmi Akbar
+
+## Development Tools
+1. Node JS
+2. Bootstrap
