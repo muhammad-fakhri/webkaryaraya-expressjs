@@ -1,5 +1,5 @@
 # WEBSITE BEM KM IPB KARYARAYA (Express JS)
-Colaboration project between HIMALKOM Cabinet Network and BEM KM IPB Cabinet Karya Raya. Node JS version of the project.
+Colaboration project between HIMALKOM Cabinet Network and BEM KM IPB Cabinet Karya Raya. Node JS version of the project. Development is not continued.
 
 ## TEAM DEVELOPER
 ### Front-End
