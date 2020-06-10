@@ -1,7 +1,7 @@
-# WEBSITE BEM KM IPB KARYARAYA (Express JS)
-Colaboration project between HIMALKOM Cabinet Network and BEM KM IPB Cabinet Karya Raya. Node JS version of the project. Development is not continued.
+# BEM KM IPB Karya Raya (Express JS)
+Collaboration project between HIMALKOM (Kabinet Network) and BEM KM IPB (Kabinet Karya Raya). Node JS version of the project. Development is not continued.
 
-## TEAM DEVELOPER
+## Developer Team
 ### Front-End
 1. Yasmin Salamah ([@yasminda19](https://github.com/yasminda19))
 2. Muhammad Hilmy Haidar ([@dashdaz021](https://github.com/dashdaz021))
