@@ -7,7 +7,7 @@ Collaboration project between HIMALKOM (Kabinet Network) and BEM KM IPB (Kabinet
 2. Muhammad Hilmy Haidar ([@dashdaz021](https://github.com/dashdaz021))
 
 ### Back-End
-1. Muhammad Fakhri ([@muhammad-fakhri](https://github.com/muhammad-fakhri))
+1. Muhammad Fakhri ([@Nyxordinal](https://github.com/nyxordinal))
 
 ## Development Tools
 1. Node JS
