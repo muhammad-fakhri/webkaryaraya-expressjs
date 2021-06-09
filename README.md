@@ -3,11 +3,11 @@ Collaboration project between HIMALKOM (Kabinet Network) and BEM KM IPB (Kabinet
 
 ## Developer Team
 ### Front-End
-1. Yasmin Salamah ([@yasminda19](https://github.com/yasminda19))
-2. Muhammad Hilmy Haidar ([@dashdaz021](https://github.com/dashdaz021))
+1. Yasmin Salamah 
+2. Muhammad Hilmy Haidar
 
 ### Back-End
-1. Muhammad Fakhri ([@Nyxordinal](https://github.com/nyxordinal))
+1. Muhammad Fakhri
 
 ## Development Tools
 1. Node JS
